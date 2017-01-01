@@ -1,0 +1,12 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+	<div class="g-layercontent {{ particle.class|e }}">
+		{% if particle.title %}<h2 class="g-layercontent-title">{{ particle.title|raw }}</h2>{% endif %}
+		{% if particle.subtitle %}<div class="g-layercontent-subtitle">
+			{{ particle.subtitle|raw }}
+		</div>
+		{% endif %}
+		{% if particle.readmore %}<a href="{{ particle.link|raw }}" class="button button-2">{{ particle.readmore|raw }}</a>{% endif %}
+	</div>
+{% endblock %}

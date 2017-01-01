@@ -1,0 +1,39 @@
+name: Error Messages
+description: Display custom error messages.
+type: particle
+icon: fa-exclamation-triangle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    title:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: Enter title
+
+    subtitle:
+      type: input.text
+      label: Subtitle
+      description: Customize the subtitle.
+      placeholder: Enter subtitle
+
+    readmore:
+      type: input.text
+      label: Readmore Text
+      description: Specify the readmore text.
+
+    link:
+      type: input.text
+      label: Readmore Link
+      description: Specify the readmore link address.
