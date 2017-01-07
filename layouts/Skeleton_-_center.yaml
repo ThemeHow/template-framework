@@ -1,15 +1,21 @@
 version: 2
 preset:
-  image: 'gantry-admin://images/layouts/body-only.png'
-  name: _body_only
+  image: gantry-admin://images/layouts/3-col.png
+  name: skeleton_-_center
   timestamp: 1474265166
 layout:
   /drawer/:
     -
       - 'system-messages-8489 100'
   /top/: {  }
-  /header/: {  }
-  /navigation/: {  }
+  /header/:
+    -
+      - 'logo-2371 56'
+      - 'iconmenu-3709 44'
+  /navigation/:
+    -
+      - 'menu-4987 80'
+      - 'social-2827 20'
   /showcase/: {  }
   /feature/: {  }
   /utility/: {  }
@@ -21,9 +27,7 @@ layout:
         'sidebar-a 20': {  }
       -
         'content-top 60': {  }
-        'body 60':
-          -
-            - 'system-content-7076 100'
+        'body 60': {  }
         'content-bottom 60': {  }
       -
         'sidebar-b 20': {  }
@@ -32,7 +36,9 @@ layout:
   /bottom/: {  }
   /footer/: {  }
   /copyright/: {  }
-  offcanvas: {  }
+  offcanvas:
+    -
+      - 'mobile-menu-8694 100'
 structure:
   drawer:
     type: section
@@ -253,15 +259,120 @@ content:
       variations: ''
       fixed: ''
       size: '100'
-  system-content-7076:
-    type: system
-    subtype: content
-    title: 'Page Content'
+  logo-2371:
+    type: particle
+    subtype: logo
+    title: 'Logo / Image'
+    attributes:
+      enabled: true
+      url: ''
+      image: 'gantry-theme://images/logo/callisto.png'
+      link: true
+      svg: ''
+      text: 'Callisto'
+      class: 'g-logo'
+    block:
+      id: ''
+      class: g-logo-block
+      variations: ''
+      fixed: ''
+      size: '56'
+  iconmenu-3709:
+    type: particle
+    subtype: iconmenu
+    title: 'Icon Menu'
+    attributes:
+      enabled: true
+      class: ''
+      target: _parent
+      items:
+        -
+          icon: 'fa fa-comments'
+          text: 'Blog'
+          link: 'https://blog.dazzlesoftware.org'
+          name: Blog
+        -
+          icon: 'fa fa-book'
+          text: 'Codex'
+          link: 'https://codex.dazzlesoftware.org'
+          name: Codex
+        -
+          icon: 'fa fa-commenting'
+          text: 'Community'
+          link: 'https://community.dazzlesoftware.org'
+          name: Community
+        -
+          icon: 'fa fa-shopping-cart'
+          text: 'Marketplace'
+          link: 'https://marketplace.dazzlesoftware.org'
+          name: Marketplace
+    block:
+      id: ''
+      class: flush
+      variations: ''
+      fixed: ''
+      size: '44'
+  menu-4987:
+    type: particle
+    subtype: menu
+    title: Menu
+    attributes:
+      enabled: true
+      menu: ''
+      base: '/'
+      startLevel: 1
+      maxLevels: 0
+      renderTitles: 0
+      hoverExpand: 1
+      mobileTarget: 0
+    block:
+      id: ''
+      class: g-menu-block
+      variations: ''
+      fixed: ''
+      size: '80'
+  social-2827:
+    type: particle
+    subtype: social
+    title: Social
+    attributes:
+      enabled: true
+      css:
+        class: 'social-items'
+      title: ''
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/dazzlesoftware'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/dazzlesoftware'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/u/0/106840830150956948495'
+          name: Google+
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
+  mobile-menu-8694:
+    type: particle
+    subtype: mobile-menu
+    title: 'Mobile Menu'
     attributes:
       enabled: true
     block:
       id: ''
-      class: nomarginall
-      variations: box2
+      class: ''
+      variations: ''
       fixed: ''
       size: '100'

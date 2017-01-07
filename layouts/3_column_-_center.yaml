@@ -1,12 +1,12 @@
 version: 2
 preset:
   image: gantry-admin://images/layouts/3-col.png
-  name: gantry4_-_center
+  name: 3_column_-_center
   timestamp: 1474265166
 layout:
   /drawer/:
     -
-      - 'position-drawer-5167 100'
+      - 'system-messages-8489 100'
   /top/:
     -
       - 'position-top-4709 25'
@@ -15,17 +15,18 @@ layout:
       - 'position-top-7867 25'
   /header/:
     -
-      - 'position-header-1864 25'
-      - 'position-header-5210 25'
-      - 'position-header-1025 25'
-      - 'position-header-7153 25'
+      - 'logo-2371 56'
+      - 'iconmenu-3709 44'
+  /navigation/:
+    -
+      - 'menu-4987 80'
+      - 'social-2827 20'
   /showcase/:
     -
       - 'position-showcase-8163 25'
       - 'position-showcase-7319 25'
       - 'position-showcase-8992 25'
       - 'position-showcase-2232 25'
-  /social/: {  }
   /feature/:
     -
       - 'position-feature-2594 25'
@@ -130,19 +131,19 @@ structure:
       class: ''
       extra: {  }
       boxed: ''
+  navigation:
+    type: section
+    title: 'Navigation'
+    attributes:
+      id: g-navigation
+      class: ''
+      extra: {  }
+      boxed: ''
   showcase:
     type: section
     title: 'Showcase'
     attributes:
       id: g-showcase
-      class: ''
-      extra: {  }
-      boxed: ''
-  social:
-    type: section
-    title: 'Social'
-    attributes:
-      id: g-social
       class: ''
       extra: {  }
       boxed: ''
@@ -186,6 +187,21 @@ structure:
       class: ''
       extra: {  }
       boxed: ''
+  sidebar-a:
+    type: section
+    subtype: aside
+    title: 'Sidebar A'
+    attributes:
+      id: g-sidebar-a
+      class: ''
+      extra: {  }
+      boxed: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '20'
   content-top:
     type: section
     subtype: main
@@ -231,21 +247,6 @@ structure:
       variations: ''
       fixed: ''
       size: '60'
-  sidebar-a:
-    type: section
-    subtype: aside
-    title: 'Sidebar A'
-    attributes:
-      id: g-sidebar-a
-      class: ''
-      extra: {  }
-      boxed: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '20'
   sidebar-b:
     type: section
     subtype: aside
@@ -312,14 +313,12 @@ structure:
       swipe: 1
       css3animation: 1
 content:
-  position-drawer-5167:
-    type: particle
-    subtype: position
-    title: 'Position - Drawer'
+  system-messages-8489:
+    type: system
+    subtype: messages
+    title: 'System Messages'
     attributes:
       enabled: true
-      key: drawer
-      chrome: ''
     block:
       id: ''
       class: ''
@@ -382,62 +381,111 @@ content:
       variations: ''
       fixed: ''
       size: '25'
-  position-header-1864:
+  logo-2371:
     type: particle
-    subtype: position
-    title: 'Position - Header A'
+    subtype: logo
+    title: 'Logo / Image'
     attributes:
       enabled: true
-      key: header-a
-      chrome: ''
+      url: ''
+      image: 'gantry-theme://images/logo/callisto.png'
+      link: true
+      svg: ''
+      text: 'Callisto'
+      class: 'g-logo'
+    block:
+      id: ''
+      class: g-logo-block
+      variations: ''
+      fixed: ''
+      size: '56'
+  iconmenu-3709:
+    type: particle
+    subtype: iconmenu
+    title: 'Icon Menu'
+    attributes:
+      enabled: true
+      class: ''
+      target: _parent
+      items:
+        -
+          icon: 'fa fa-comments'
+          text: 'Blog'
+          link: 'https://blog.dazzlesoftware.org'
+          name: Blog
+        -
+          icon: 'fa fa-book'
+          text: 'Codex'
+          link: 'https://codex.dazzlesoftware.org'
+          name: Codex
+        -
+          icon: 'fa fa-commenting'
+          text: 'Community'
+          link: 'https://community.dazzlesoftware.org'
+          name: Community
+        -
+          icon: 'fa fa-shopping-cart'
+          text: 'Marketplace'
+          link: 'https://marketplace.dazzlesoftware.org'
+          name: Marketplace
+    block:
+      id: ''
+      class: flush
+      variations: ''
+      fixed: ''
+      size: '44'
+  menu-4987:
+    type: particle
+    subtype: menu
+    title: Menu
+    attributes:
+      enabled: true
+      menu: ''
+      base: '/'
+      startLevel: 1
+      maxLevels: 0
+      renderTitles: 0
+      hoverExpand: 1
+      mobileTarget: 0
+    block:
+      id: ''
+      class: g-menu-block
+      variations: ''
+      fixed: ''
+      size: '80'
+  social-2827:
+    type: particle
+    subtype: social
+    title: Social
+    attributes:
+      enabled: true
+      css:
+        class: 'social-items'
+      title: ''
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/dazzlesoftware'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/dazzlesoftware'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/u/0/106840830150956948495'
+          name: Google+
     block:
       id: ''
       class: ''
       variations: ''
       fixed: ''
-      size: '25'
-  position-header-5210:
-    type: particle
-    subtype: position
-    title: 'Position - Header B'
-    attributes:
-      enabled: true
-      key: header-b
-      chrome: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '25'
-  position-header-1025:
-    type: particle
-    subtype: position
-    title: 'Position - Header C'
-    attributes:
-      enabled: true
-      key: header-c
-      chrome: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '25'
-  position-header-7153:
-    type: particle
-    subtype: position
-    title: 'Position - Header D'
-    attributes:
-      enabled: true
-      key: header-d
-      chrome: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '25'
+      size: '20'
   position-showcase-8163:
     type: particle
     subtype: position
@@ -676,6 +724,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-sidebar-9887:
+    type: particle
+    subtype: position
+    title: 'Position - Sidebar A'
+    attributes:
+      enabled: true
+      key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-content-top-7729:
     type: particle
     subtype: position
@@ -772,20 +834,6 @@ content:
       variations: ''
       fixed: ''
       size: '33.3'
-  position-sidebar-9887:
-    type: particle
-    subtype: position
-    title: 'Position - Sidebar A'
-    attributes:
-      enabled: true
-      key: sidebar-a
-      chrome: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '100'
   position-sidebar-7283:
     type: particle
     subtype: position

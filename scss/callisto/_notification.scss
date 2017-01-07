@@ -1,26 +1,26 @@
-.g-notice-content {
+.g-notification {
 	padding: 2rem;
-	&.g-notice-content-large {
+	&.g-notification-large {
 		padding: 5rem 2rem;
 	}
-	&.g-notice-content-medium {
+	&.g-notification-medium {
 		padding: 3rem 2rem;
 	}
-	&.g-notice-content-small {
+	&.g-notification-small {
 		padding: 2rem;
 	}		
-	.g-notice-content-title {
+	.g-notification-title {
 		margin: 0;
 		line-height: 3rem;
 	}
-	.g-notice-content-subtitle {
+	.g-notification-subtitle {
 		line-height: 2rem;
 		opacity: 0.8;
 	}
 	.button {
 		margin: 1rem 0 0.75rem 0;
 	}
-	& + .g-notice-content {
+	& + .g-notification {
 		padding-top: 0rem;
 	}
 	.rounded {
