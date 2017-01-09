@@ -23,14 +23,10 @@ layout:
       - 'social-2827 20'
   /showcase/:
     -
-      - 'position-showcase-6084 100'
-    -
       - 'position-showcase-8163 25'
       - 'position-showcase-7319 25'
       - 'position-showcase-8992 25'
       - 'position-showcase-2232 25'
-    -
-      - 'position-showcase-3616 100'
   /feature/:
     -
       - 'position-feature-2594 25'
@@ -60,18 +56,16 @@ layout:
             - 'position-content-top-7729 33.3'
             - 'position-content-top-6862 33.3'
             - 'position-content-top-3192 33.3'
-        'body 67':
-          -
-            - 'system-content-7076 100'
+        'body 67': {  }
         'content-bottom 67':
           -
             - 'position-content-bottom-4423 33.3'
             - 'position-content-bottom-3246 33.3'
             - 'position-content-bottom-2967 33.3'
       -
-        'sidebar-a 33':
+        'sidebar 33':
           -
-            - 'position-sidebar-7283 100'
+            - 'position-sidebar-9887 100'
   /mainbottom/:
     -
       - 'position-mainbottom-8581 25'
@@ -232,12 +226,12 @@ structure:
       variations: ''
       fixed: ''
       size: '67'
-  sidebar-a:
+  sidebar:
     type: section
     subtype: aside
-    title: 'Sidebar A'
+    title: 'Sidebar'
     attributes:
-      id: g-sidebar-a
+      id: g-sidebar
       class: ''
       extra: {  }
       boxed: ''
@@ -471,20 +465,6 @@ content:
       variations: ''
       fixed: ''
       size: '20'
-  position-showcase-6084:
-    type: particle
-    subtype: position
-    title: 'Position - Showcase Top'
-    attributes:
-      enabled: true
-      key: showcase-top
-      chrome: ''
-    block:
-      id: ''
-      class: 'flush'
-      variations: ''
-      fixed: ''
-      size: '100'
   position-showcase-8163:
     type: particle
     subtype: position
@@ -541,20 +521,6 @@ content:
       variations: ''
       fixed: ''
       size: '25'
-  position-showcase-3616:
-    type: particle
-    subtype: position
-    title: 'Position - Showcase Bottom'
-    attributes:
-      enabled: true
-      key: showcase-bottom
-      chrome: ''
-    block:
-      id: ''
-      class: 'center flush'
-      variations: ''
-      fixed: ''
-      size: '100'
   position-feature-2594:
     type: particle
     subtype: position
@@ -737,6 +703,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-sidebar-9887:
+    type: particle
+    subtype: position
+    title: 'Position - Sidebar'
+    attributes:
+      enabled: true
+      key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-content-top-7729:
     type: particle
     subtype: position
@@ -779,18 +759,6 @@ content:
       variations: ''
       fixed: ''
       size: '33.3'
-  system-content-7076:
-    type: system
-    subtype: content
-    title: 'Page Content'
-    attributes:
-      enabled: true
-    block:
-      id: ''
-      class: nomarginall
-      variations: box2
-      fixed: ''
-      size: '100'
   position-content-bottom-4423:
     type: particle
     subtype: position
@@ -833,20 +801,6 @@ content:
       variations: ''
       fixed: ''
       size: '33.3'
-  position-sidebar-7283:
-    type: particle
-    subtype: position
-    title: 'Position - Sidebar A'
-    attributes:
-      enabled: true
-      key: sidebar-a
-      chrome: ''
-    block:
-      id: ''
-      class: ''
-      variations: ''
-      fixed: ''
-      size: '100'
   position-mainbottom-8581:
     type: particle
     subtype: position
