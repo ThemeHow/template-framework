@@ -422,6 +422,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-top-1438:
+    type: particle
+    subtype: position
+    title: 'Position - Top Footer'
+    attributes:
+      enabled: true
+      key: top-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   logo-2371:
     type: particle
     subtype: logo
@@ -527,6 +541,20 @@ content:
       variations: ''
       fixed: ''
       size: '20'
+  position-showcase-9981:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase Header'
+    attributes:
+      enabled: true
+      key: showcase-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-showcase-8163:
     type: particle
     subtype: position
@@ -583,6 +611,36 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-showcase-2454:
+    type: particle
+    subtype: position
+    title: 'Position - Showcase Footer'
+    attributes:
+      enabled: true
+      key: showcase-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-feature-5323:
+    type: particle
+    subtype: position
+    title: 'Position - Feature Header'
+    attributes:
+      enabled: true
+      key: feature-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+      
+      
   position-feature-2594:
     type: particle
     subtype: position
@@ -639,6 +697,34 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-feature-7766:
+    type: particle
+    subtype: position
+    title: 'Position - Feature Footer'
+    attributes:
+      enabled: true
+      key: feature-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-utility-3701:
+    type: particle
+    subtype: position
+    title: 'Position - Utility Header'
+    attributes:
+      enabled: true
+      key: utility-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-utility-7255:
     type: particle
     subtype: position
@@ -695,6 +781,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-utility-6050:
+    type: particle
+    subtype: position
+    title: 'Position - Utility Footer'
+    attributes:
+      enabled: true
+      key: utility-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-breadcrumb-9302:
     type: particle
     subtype: position
@@ -702,6 +802,20 @@ content:
     attributes:
       enabled: true
       key: breadcrumb
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-maintop-9444:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop Header'
+    attributes:
+      enabled: true
+      key: maintop-header
       chrome: ''
     block:
       id: ''
@@ -765,6 +879,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-maintop-7130:
+    type: particle
+    subtype: position
+    title: 'Position - MainTop Footer'
+    attributes:
+      enabled: true
+      key: maintop-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-sidebar-9887:
     type: particle
     subtype: position
@@ -772,6 +900,20 @@ content:
     attributes:
       enabled: true
       key: sidebar-a
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-content-top-9476:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top Header'
+    attributes:
+      enabled: true
+      key: content-top-header
       chrome: ''
     block:
       id: ''
@@ -821,6 +963,34 @@ content:
       variations: ''
       fixed: ''
       size: '33.3'
+  position-content-top-8410:
+    type: particle
+    subtype: position
+    title: 'Position - Content Top Footer'
+    attributes:
+      enabled: true
+      key: content-top-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-content-bottom-6577:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom Header'
+    attributes:
+      enabled: true
+      key: content-bottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
   position-content-bottom-4423:
     type: particle
     subtype: position
@@ -863,6 +1033,34 @@ content:
       variations: ''
       fixed: ''
       size: '33.3'
+  position-content-bottom-7901:
+    type: particle
+    subtype: position
+    title: 'Position - Content Bottom Footer'
+    attributes:
+      enabled: true
+      key: content-bottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '33.3'
+  position-mainbottom-4813:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom Header'
+    attributes:
+      enabled: true
+      key: mainbottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-mainbottom-8581:
     type: particle
     subtype: position
@@ -919,6 +1117,34 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-mainbottom-6486:
+    type: particle
+    subtype: position
+    title: 'Position - MainBottom Footer'
+    attributes:
+      enabled: true
+      key: mainbottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-extension-4369:
+    type: particle
+    subtype: position
+    title: 'Position - Extension Header'
+    attributes:
+      enabled: true
+      key: extension-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-extension-2509:
     type: particle
     subtype: position
@@ -975,6 +1201,34 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-extension-4998:
+    type: particle
+    subtype: position
+    title: 'Position - Extension Footer'
+    attributes:
+      enabled: true
+      key: extension-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-bottom-3655:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom Header'
+    attributes:
+      enabled: true
+      key: bottom-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-bottom-7190:
     type: particle
     subtype: position
@@ -1024,6 +1278,34 @@ content:
     attributes:
       enabled: true
       key: bottom-d
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '25'
+  position-bottom-8933:
+    type: particle
+    subtype: position
+    title: 'Position - Bottom Footer'
+    attributes:
+      enabled: true
+      key: bottom-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-footer-1017:
+    type: particle
+    subtype: position
+    title: 'Position - Footer Header'
+    attributes:
+      enabled: true
+      key: footer-header
       chrome: ''
     block:
       id: ''
@@ -1087,6 +1369,34 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-footer-4555:
+    type: particle
+    subtype: position
+    title: 'Position - Footer Bottom'
+    attributes:
+      enabled: true
+      key: footer-bottom
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
+  position-copyright-6275:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright Header'
+    attributes:
+      enabled: true
+      key: copyright-header
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   position-copyright-4650:
     type: particle
     subtype: position
@@ -1143,6 +1453,20 @@ content:
       variations: ''
       fixed: ''
       size: '25'
+  position-copyright-1237:
+    type: particle
+    subtype: position
+    title: 'Position - Copyright Footer'
+    attributes:
+      enabled: true
+      key: copyright-footer
+      chrome: ''
+    block:
+      id: ''
+      class: ''
+      variations: ''
+      fixed: ''
+      size: '100'
   mobile-menu-8694:
     type: particle
     subtype: mobile-menu
